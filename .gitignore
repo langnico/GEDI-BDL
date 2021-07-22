@@ -1,0 +1,10 @@
+demo_data
+*output_demo*
+
+*.pyc
+*.ipynb_checkpoints
+*.png
+*.pdf
+*.jpg
+*.DS_Store
+
