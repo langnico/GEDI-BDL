@@ -1,6 +1,6 @@
-# Global canopy height estimation with GEDI LIDAR waveforms and Bayesian deep learning
+# Global canopy height regression and uncertainty estimation from GEDI LIDAR waveforms with deep ensembles
 
-This repository provides the code used to create the results presented in [Global canopy height estimation with GEDI LIDAR waveforms and Bayesian deep learning](https://arxiv.org/abs/2103.03975).
+This repository provides the code used to create the results presented in [Global canopy height regression and uncertainty estimation from GEDI LIDAR waveforms with deep ensembles](https://doi.org/10.1016/j.rse.2021.112760).
 
 ## Installation
 The code has been tested with `Python 3.8.5`.
@@ -70,19 +70,21 @@ The orbit files are loaded from `demo_data/GEDI_BDL_demo/DEMO_orbit_files`. The 
 bash DEMO_GEDI_orbit_prediction.sh
 ```
 
-
 ## Citation
 
 If you use this code please cite our paper:
 
-*Lang, N., Kalischek, N., Armston, J., Schindler, K., Dubayah, R., & Wegner, J. D. (2021). Global canopy height estimation with GEDI LIDAR waveforms and Bayesian deep learning. arXiv preprint [arXiv:2103.03975]((https://arxiv.org/abs/2103.03975)).*
+*Lang, N., Kalischek, N., Armston, J., Schindler, K., Dubayah, R., & Wegner, J. D. (2022). Global canopy height regression and uncertainty estimation from GEDI LIDAR waveforms with deep ensembles. Remote Sensing of Environment, 268, 112760.*
 
 BibTex:
 ```
-@article{lang2021global,
-  title={Global canopy height estimation with GEDI LIDAR waveforms and Bayesian deep learning},
+@article{lang2022global,
+  title={Global canopy height regression and uncertainty estimation from GEDI LIDAR waveforms with deep ensembles},
   author={Lang, Nico and Kalischek, Nikolai and Armston, John and Schindler, Konrad and Dubayah, Ralph and Wegner, Jan Dirk},
-  journal={arXiv preprint arXiv:2103.03975},
-  year={2021}
+  journal={Remote Sensing of Environment},
+  volume={268},
+  pages={112760},
+  year={2022},
+  publisher={Elsevier}
 }
 ```
